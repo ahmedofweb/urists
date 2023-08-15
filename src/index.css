@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+:root {
+  --green: #016f52;
+  --green2: #81d2bc;
+  --blue1: #1a77a3;
+  --blue2: #1c77a4;
+  --silver: #e5e5e5;
+  --sky-blue: #d7e8ef;
+  --gray: #2f2b4366;
+  --black: #000000;
+  --white: #ffffff;
+  /* fonts */
+  --main-font: "Open Sans";
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  flex-grow: 1;
+}
+
+ol,
+li,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+input{
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.btn{
+    width: 100%;
+    max-width: 220px;
+    height: 52px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: var(--green);
+    font-family: var(--main-font);
+    border: none;
+    font-size: 15px;
+}
+@media screen and (max-width: 550px) {
+  .btn{
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,147 @@
+@media screen and (max-width: 500px) {
+    .header{
+        align-items: center;
+        height: 85px;
+        width: 100%;
+    }
+    .burger{
+        display: flex;
+        font-size: 30px;
+        position: fixed;
+        top: 30px;
+        left: 50px;
+        z-index: 13;
+    }
+    .mobile-search{
+        display: flex;
+        font-size: 30px;
+        position: fixed;
+        top: 30px;
+        right: 50px;
+        z-index: 13;
+    }
+    .navbar{
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 100px;
+        background-color: var(--white);
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 85%;
+        z-index: 12;
+        margin: 0;
+        justify-content: start;
+        padding-top: 150px;
+        box-shadow: 0px 20px 40px 0px rgba(0, 0, 0);
+    }
+    .btn-contact:last-child{
+        margin-bottom: 60px;
+    }
+    .nav-list{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 80px;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .hero_wrapper--list{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-between;
+
+    }
+    .hero_wrapper--item{
+        width: 100%;
+        max-width: 160px;
+    }
+    .hero-btns{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .tell{
+        text-align: center;
+    }
+    .hero-btns .btn{
+        width: 100%;
+    }
+    .connect{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-position: bottom center;
+        padding: 20px;
+        padding-bottom: 200px;
+    }
+    .connect h2{
+        margin-right: 0;
+    }
+    .zakazat{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .free_counsultation--list{
+        display: flex;
+        flex-direction: column;
+    }
+    .free_counsultation--item{
+        width: 100%;
+        max-width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .otziv-list{
+        flex-direction: column;
+    }
+    .otziv-item{
+        width: 100%;
+        max-width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .portal{
+        display: flex;
+        flex-direction: column;
+    }
+    .portal-item{
+        height: 100%;
+        padding: 25px 10px;
+        padding-left: 60px;
+    }
+    .portal-form-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .submitted{
+        display: flex;
+        flex-direction: column;
+    }
+    .online{
+        top: 10px;
+        right: 10px;
+    }
+
+
+    .spr-list{
+        gap: 40px;
+    }
+    .spr-item{
+        width: 100%;
+        max-width: 150px;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+
+    .user p{
+        font-size: 10px;
+    }
+}
